@@ -30,5 +30,4 @@ public class StandardRecordBlocker<RecordType extends Matchable, SchemaElementTy
 	public StandardRecordBlocker(BlockingKeyGenerator<RecordType, SchemaElementType, RecordType> blockingFunction, BlockingKeyGenerator<RecordType, SchemaElementType, RecordType> secondBlockingFunction) {
 		super(blockingFunction, secondBlockingFunction);
 	}
-	
 }
